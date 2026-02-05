@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ⚡ Revista De Mesa - Variable DC Power Supply Guide
 
-# Run and deploy your AI Studio app
+## Overview
+This project, **revistademesa.com**, serves as a comprehensive digital guide and technical resource for **Variable DC Power Supplies**. It is designed to educate engineers, lab technicians, and procurement specialists on the specifications, applications, and compliance standards of various voltage classes (120V, 150V, 220V, etc.).
 
-This contains everything you need to run your app locally.
+## Main Site & Inventory
+For live inventory, pricing, and purchase inquiries, please visit our main platform:
 
-View your app in AI Studio: https://ai.studio/apps/drive/1e4AABMJQ1EPlZrrMWJgEtvm3_mgZSdqO
+👉 **[Variable DC Power Supply](https://variabledcpowersupply.com)**
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Features
+- **AI-Powered Assistance**: Integrated Gemini AI to answer technical queries and guide users to the correct power supply models.
+- **Detailed Technical Specs**: In-depth breakdowns of ripple, efficiency, and cooling mechanisms for each voltage tier.
+- **Compliance Standards**: Information on NEMA, MIL-STD, and IEC standards relevant to each product class.
+- **Interactive Visualizations**: Dynamic charts comparing stability, efficiency, and safety metrics.
 
+## Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS with a custom industrial/dark theme.
+- **AI Integration**: Google Gemini API via Server Actions.
+- **Deployment**: Optimized for Cloudflare Pages (`@cloudflare/next-on-pages`).
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## SEO & Performance
+- Fully optimized with dynamic metadata, canonical tags, and structured data (JSON-LD).
+- Fast loading speed with server-side rendering and edge compatibility.
+
+---
+*Powered by Next.js & Gemini*

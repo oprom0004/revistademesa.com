@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const config = VOLTAGE_PAGES.find((p) => p.slug === `/${slug}`); // Add leading slash to match config
     if (!config) return {};
     return {
-        title: config.metaTitle || config.title,
+        title: config.title,
         description: config.description,
     };
 }
@@ -68,7 +68,7 @@ export default async function VoltageDetail({ params }: { params: Promise<{ slug
                         </div>
                         <div>
                             <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-3 tracking-tight font-mono">
-                                {config.title}
+                                {config.metaTitle || config.title}
                             </h1>
                             <p className="text-xl text-slate-300 max-w-3xl leading-relaxed">
                                 {config.subtitle}

@@ -71,7 +71,7 @@ const GeminiAssistant: React.FC = () => {
                                     ? 'bg-slate-200 border-slate-300 text-slate-900'
                                     : 'bg-white border-slate-300 text-slate-800 shadow-sm'
                                     }`}>
-                                    {msg.role === MessageRole.ASSISTANT ? (
+                                    {msg.role === MessageRole.MODEL ? (
                                         <div className="whitespace-pre-wrap">
                                             {msg.text.split(/(\bhttps?:\/\/[^\s]+)/g).map((part, i) => {
                                                 // Clean common trailing punctuation/markdown from URL

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { VOLTAGE_PAGES } from '@/lib/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://variabledcpowersupply.com';
+    const baseUrl = 'https://revistademesa.com';
 
     // Static pages
     const staticPages = [

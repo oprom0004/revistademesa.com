@@ -6,30 +6,30 @@ export default function SchemaMarkup() {
         "@graph": [
             {
                 "@type": "WebSite",
-                "@id": "https://variabledcpowersupply.com/#website",
-                "url": "https://variabledcpowersupply.com/",
+                "@id": "https://revistademesa.com/#website",
+                "url": "https://revistademesa.com/",
                 "name": "Variable DC Power Supply Guide",
                 "description": "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
                 "publisher": {
-                    "@id": "https://variabledcpowersupply.com/#organization"
+                    "@id": "https://revistademesa.com/#organization"
                 },
                 "potentialAction": {
                     "@type": "SearchAction",
                     "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://variabledcpowersupply.com/?s={search_term_string}"
+                        "urlTemplate": "https://revistademesa.com/?s={search_term_string}"
                     },
                     "query-input": "required name=search_term_string"
                 }
             },
             {
                 "@type": "Organization",
-                "@id": "https://variabledcpowersupply.com/#organization",
+                "@id": "https://revistademesa.com/#organization",
                 "name": "Revista De Mesa",
-                "url": "https://variabledcpowersupply.com/",
+                "url": "https://revistademesa.com/",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://variabledcpowersupply.com/favicon.ico"
+                    "url": "https://revistademesa.com/favicon.ico"
                 },
                 "contactPoint": {
                     "@type": "ContactPoint",
@@ -39,14 +39,14 @@ export default function SchemaMarkup() {
             },
             {
                 "@type": "WebPage",
-                "@id": "https://variabledcpowersupply.com/#webpage",
-                "url": "https://variabledcpowersupply.com/",
+                "@id": "https://revistademesa.com/#webpage",
+                "url": "https://revistademesa.com/",
                 "name": `Variable DC Power Supply Guide (${new Date().getFullYear()}): 120V - 800V Selection`,
                 "isPartOf": {
-                    "@id": "https://variabledcpowersupply.com/#website"
+                    "@id": "https://revistademesa.com/#website"
                 },
                 "about": {
-                    "@id": "https://variabledcpowersupply.com/#organization"
+                    "@id": "https://revistademesa.com/#organization"
                 },
                 "description": "Precision Source for NEMA Standard Equipment & 96V Battery Architectures"
             }

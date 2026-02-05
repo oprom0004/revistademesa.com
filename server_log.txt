@@ -1,0 +1,471 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://198.18.0.1:3002
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 912ms
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 1750ms (compile: 1291ms, render: 460ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Error: Route "/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\[slug]\page.tsx:25:68)
+    at Array.find (<anonymous>)
+    at VoltageDetail (app\[slug]\page.tsx:25:34)
+  23 |
+  24 | export default function VoltageDetail({ params }: { params: { slug: string } }) {
+> 25 |     const config = VOLTAGE_PAGES.find((p) => p.slug === `/${params.slug}`);
+     |                                                                    ^
+  26 |
+  27 |     if (!config) {
+  28 |         notFound();
+ GET /favicon.ico 404 in 1447ms (compile: 1260ms, generate-params: 1135ms, render: 187ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-power-supplies 200 in 1812ms (compile: 1625ms, render: 187ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Error: Route "/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\[slug]\page.tsx:25:68)
+    at Array.find (<anonymous>)
+    at VoltageDetail (app\[slug]\page.tsx:25:34)
+  23 |
+  24 | export default function VoltageDetail({ params }: { params: { slug: string } }) {
+> 25 |     const config = VOLTAGE_PAGES.find((p) => p.slug === `/${params.slug}`);
+     |                                                                    ^
+  26 |
+  27 |     if (!config) {
+  28 |         notFound();
+ GET /variable-dc-power-supply-600v 200 in 51ms (compile: 16ms, generate-params: 9ms, render: 34ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Error: Route "/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (app\[slug]\page.tsx:25:68)
+    at Array.find (<anonymous>)
+    at VoltageDetail (app\[slug]\page.tsx:25:34)
+  23 |
+  24 | export default function VoltageDetail({ params }: { params: { slug: string } }) {
+> 25 |     const config = VOLTAGE_PAGES.find((p) => p.slug === `/${params.slug}`);
+     |                                                                    ^
+  26 |
+  27 |     if (!config) {
+  28 |         notFound();
+ GET /variable-dc-power-supply-150v 200 in 66ms (compile: 24ms, generate-params: 10ms, render: 42ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+✓ Compiled in 85ms
+ GET /variable-power-supplies 200 in 71ms (compile: 6ms, render: 66ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /variable-dc-power-supply-120v 200 in 679ms (compile: 130ms, generate-params: 14ms, render: 550ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-power-supplies 200 in 58ms (compile: 8ms, render: 51ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-dc-power-supply-800v 200 in 57ms (compile: 19ms, generate-params: 5ms, render: 38ms)
+✓ Compiled in 38ms
+✓ Compiled in 160ms
+✓ Compiled in 99ms
+✓ Compiled in 134ms
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 561ms (compile: 207ms, render: 354ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 272ms (compile: 137ms, generate-params: 7ms, render: 135ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-power-supplies 200 in 1484ms (compile: 399ms, render: 1085ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /variable-dc-power-supply-120v 200 in 1165ms (compile: 49ms, generate-params: 15ms, render: 1116ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Error: Error [ApiError]: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]}}
+    at async getGeminiResponse (app\actions.ts:37:26)
+  35 |         // Legacy: model: 'gemini-3-flash-preview'
+  36 |         // I'll use 'gemini-2.0-flash-exp' as a robust current model.
+> 37 |         const response = await ai.models.generateContent({
+     |                          ^
+  38 |             model: 'gemini-2.0-flash-exp',
+  39 |             contents: userPrompt,
+  40 |             config: { {
+  status: 400
+}
+ POST /variable-dc-power-supply-120v 200 in 1188ms (compile: 16ms, generate-params: 5ms, render: 1172ms)
+✓ Compiled in 770ms
+✓ Compiled in 86ms
+✓ Compiled in 120ms
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/actions.ts:3:1
+Module not found: Can't resolve '@google/genai'
+[0m [90m 1 |[39m [32m'use server'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mGoogleGenAI[39m } [36mfrom[39m [32m"@google/genai"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mconst[39m apiKey [33m=[39m process[33m.[39menv[33m.[39m[33mGEMINI_API_KEY[39m [33m||[39m process[33m.[39menv[33m.[39m[33mAPI_KEY[39m[33m;[39m
+ [90m 6 |[39m [90m// Start GenAI instance[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 640ms
+✓ Compiled in 116ms
+��ֹ������������(Y/N)? [?25h

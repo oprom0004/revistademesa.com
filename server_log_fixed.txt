@@ -1,0 +1,216 @@
+â–² Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://198.18.0.1:3002
+- Environments: .env.local
+
+âœ“ Starting...
+âœ“ Ready in 1157ms
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 2.1s (compile: 1701ms, render: 419ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 439ms (compile: 10ms, render: 429ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 2.4s (compile: 2.2s, generate-params: 2.0s, render: 192ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Connection Failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:519:11)
+    at async makeRequest (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:491:9)
+    at async generateContent (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:933:22)
+    at async getGeminiResponse (app\actions.ts:35:24)
+  33 |         });
+  34 |
+> 35 |         const result = await model.generateContent(userPrompt);
+     |                        ^
+  36 |         const response = await result.response;
+  37 |         return response.text();
+  38 |     } catch (error) { {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+ POST / 200 in 2.6s (compile: 23ms, render: 2.6s)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 272ms (compile: 9ms, render: 263ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 121ms (compile: 13ms, generate-params: 7ms, render: 108ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Connection Failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:519:11)
+    at async makeRequest (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:491:9)
+    at async generateContent (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_ae125af8._.js:933:22)
+    at async getGeminiResponse (app\actions.ts:35:24)
+  33 |         });
+  34 |
+> 35 |         const result = await model.generateContent(userPrompt);
+     |                        ^
+  36 |         const response = await result.response;
+  37 |         return response.text();
+  38 |     } catch (error) { {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+ POST / 200 in 3.3s (compile: 12ms, render: 3.3s)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 615ms (compile: 136ms, render: 480ms)
+ GET / 200 in 420ms (compile: 190ms, render: 229ms)
+ GET / 200 in 421ms (compile: 57ms, render: 363ms)
+ GET / 200 in 122ms (compile: 6ms, render: 116ms)
+ÖÕÖ¹Åú´¦Àí²Ù×÷Âð(Y/N)? [?25h

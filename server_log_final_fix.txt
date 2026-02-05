@@ -1,0 +1,120 @@
+â–² Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://198.18.0.1:3002
+- Environments: .env.local
+
+âœ“ Starting...
+âœ“ Ready in 1706ms
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-power-supplies 200 in 1487ms (compile: 1090ms, render: 398ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /variable-power-supplies 200 in 662ms (compile: 30ms, render: 632ms)
+âš  ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Attempting to connect with model: gemini-2.0-flash
+Failed with model gemini-2.0-flash: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 23.060023806s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
+    at handleResponseNotOk (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:534:11)
+    at async makeRequest (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:506:9)
+    at async generateContent (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:948:22)
+    at async getGeminiResponse (app\actions.ts:44:28)
+  42 |             });
+  43 |
+> 44 |             const result = await model.generateContent(userPrompt);
+     |                            ^
+  45 |             const response = await result.response;
+  46 |             const text = response.text();
+  47 | {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+Attempting to connect with model: gemini-2.0-flash-exp
+Failed with model gemini-2.0-flash-exp: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:534:11)
+    at async makeRequest (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:506:9)
+    at async generateContent (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:948:22)
+    at async getGeminiResponse (app\actions.ts:44:28)
+  42 |             });
+  43 |
+> 44 |             const result = await model.generateContent(userPrompt);
+     |                            ^
+  45 |             const response = await result.response;
+  46 |             const text = response.text();
+  47 | {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+All Gemini models failed. Last error: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:534:11)
+    at async makeRequest (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:506:9)
+    at async generateContent (I:\jp\code\vdc-sites-gemini\revistademesa.com\.next\dev\server\chunks\ssr\_d15b2749._.js:948:22)
+    at async getGeminiResponse (app\actions.ts:44:28)
+  42 |             });
+  43 |
+> 44 |             const result = await model.generateContent(userPrompt);
+     |                            ^
+  45 |             const response = await result.response;
+  46 |             const text = response.text();
+  47 | {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+ POST /variable-power-supplies 200 in 2.3s (compile: 6ms, render: 2.3s)
+ÖÕÖ¹Åú´¦Àí²Ù×÷Âğ(Y/N)? [?25h

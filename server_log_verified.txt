@@ -1,0 +1,415 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://198.18.0.1:3002
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 900ms
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 3.0s (compile: 2.3s, render: 693ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 2.0s (compile: 1841ms, generate-params: 1662ms, render: 185ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Error: Error [ApiError]: {"error":{"code":404,"message":"models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at async getGeminiResponse (app\actions.ts:39:26)
+  37 |         // Legacy: model: 'gemini-3-flash-preview'
+  38 |         // I'll use 'gemini-2.0-flash-exp' as a robust current model.
+> 39 |         const response = await ai.models.generateContent({
+     |                          ^
+  40 |             model: 'gemini-2.0-flash-exp',
+  41 |             contents: userPrompt,
+  42 |             config: { {
+  status: 404
+}
+ POST / 200 in 3.0s (compile: 40ms, render: 3.0s)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 857ms (compile: 41ms, render: 817ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 243ms (compile: 8ms, render: 235ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 236ms (compile: 98ms, generate-params: 73ms, render: 139ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 127ms (compile: 14ms, render: 113ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 153ms (compile: 56ms, generate-params: 16ms, render: 97ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 266ms (compile: 8ms, render: 258ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 169ms (compile: 46ms, generate-params: 26ms, render: 123ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Error: Error [ApiError]: {"error":{"code":404,"message":"models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at async getGeminiResponse (app\actions.ts:39:26)
+  37 |         // Legacy: model: 'gemini-3-flash-preview'
+  38 |         // I'll use 'gemini-2.0-flash-exp' as a robust current model.
+> 39 |         const response = await ai.models.generateContent({
+     |                          ^
+  40 |             model: 'gemini-2.0-flash-exp',
+  41 |             contents: userPrompt,
+  42 |             config: { {
+  status: 404
+}
+ POST / 200 in 1656ms (compile: 115ms, render: 1541ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Error: Error [ApiError]: {"error":{"code":404,"message":"models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at async getGeminiResponse (app\actions.ts:39:26)
+  37 |         // Legacy: model: 'gemini-3-flash-preview'
+  38 |         // I'll use 'gemini-2.0-flash-exp' as a robust current model.
+> 39 |         const response = await ai.models.generateContent({
+     |                          ^
+  40 |             model: 'gemini-2.0-flash-exp',
+  41 |             contents: userPrompt,
+  42 |             config: { {
+  status: 404
+}
+ POST / 200 in 1596ms (compile: 13ms, render: 1583ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 224ms (compile: 17ms, render: 207ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET /favicon.ico 404 in 170ms (compile: 21ms, generate-params: 13ms, render: 149ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+Gemini API Error: Error [ApiError]: {"error":{"code":404,"message":"models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at async getGeminiResponse (app\actions.ts:39:26)
+  37 |         // Legacy: model: 'gemini-3-flash-preview'
+  38 |         // I'll use 'gemini-2.0-flash-exp' as a robust current model.
+> 39 |         const response = await ai.models.generateContent({
+     |                          ^
+  40 |             model: 'gemini-2.0-flash-exp',
+  41 |             contents: userPrompt,
+  42 |             config: { {
+  status: 404
+}
+ POST / 200 in 2.3s (compile: 10ms, render: 2.3s)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /variable-dc-power-supply-120v 200 in 868ms (compile: 22ms, generate-params: 12ms, render: 846ms)
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+⚠ ./tailwind.config.js:1:13
+Parsing ecmascript source code failed
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m type { [33mConfig[39m } [36mfrom[39m [32m"tailwindcss"[39m[33m;[39m
+ [90m   |[39m             [31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+ [90m 4 |[39m     content[33m:[39m [[0m
+
+Expected ',', got '{'
+
+
+ GET / 200 in 450ms (compile: 255ms, render: 195ms)
+ GET / 200 in 97ms (compile: 8ms, render: 89ms)
+��ֹ������������(Y/N)? [?25h

@@ -1,0 +1,56 @@
+﻿
+馃攳 Running Complete SEO Audit for Next.js...
+
+馃搫 Checking 404 Page...
+
+鈿狅笍 404 Page: Missing noindex in metadata
+
+馃帹 Checking External CSS...
+
+鉁?External CSS: No external CSS dependencies
+
+馃柤锔? Checking External Images...
+
+鈿狅笍 External Images: Found 1 external image(s) from 1 domain(s)
+   Domains: picsum.photos
+   馃挕 Consider downloading to /public/ for better performance
+
+馃搮 Checking Hardcoded Dates...
+
+鉁?Hardcoded Dates: No hardcoded dates found
+
+馃彿锔? Checking Meta Tags...
+
+鈿狅笍 Meta Tags: Missing: keywords, openGraph, twitter
+
+馃敆 Checking Canonical URLs...
+
+鈿狅笍 Canonical URLs: 1/4 page(s) have canonical URLs
+
+馃 Checking Robots & Sitemap...
+
+鉁?Robots.txt: robots.txt configured
+鉁?Sitemap: sitemap.xml configured
+
+馃搵 Checking Schema.org...
+
+鈿狅笍 Schema.org: No Schema.org markup found
+
+馃柤锔? Checking Image Optimization...
+
+鉁?Image Optimization: Using Next.js Image (0 file(s))
+
+============================================================
+馃搳 SEO Audit Summary
+
+Total Checks: 10
+鉁?Pass: 5
+鈿狅笍  Warnings: 5
+鉂?Errors: 0
+
+馃搱 SEO Score: 50/100
+
+鈿狅笍  Needs attention. Please fix the issues above.
+
+馃挕 Shared script from: h5games/shared-scripts/
+

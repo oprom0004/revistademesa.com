@@ -60,9 +60,9 @@ export default function Hub() {
                             href="https://variabledcpowersupply.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center px-8 py-4 bg-amber-400 hover:bg-amber-500 text-slate-900 font-bold text-sm uppercase tracking-wider rounded-sm shadow-md transition-all hover:translate-y-[-2px]"
+                            className="inline-flex items-center justify-center px-6 py-3 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold rounded-sm transition-colors"
                         >
-                            Visit Main Site
+                            Check Live Inventory
                             <ExternalLink className="ml-2 w-4 h-4" />
                         </a>
                     </div>

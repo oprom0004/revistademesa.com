@@ -11,6 +11,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Server logs and diagnostics
+server_log*.txt
+audit*.txt
+*.log
+
+# Diagnostic scripts (keep in repo but exclude outputs)
+scripts/check-models.js
+scripts/verify-chat.js
+scripts/test-all-models.js
+
 # Editor
 .vscode/*
 !.vscode/extensions.json

@@ -1,4 +1,4 @@
-# ⚡ Revista De Mesa - Variable DC Power Supply Guide
+# Revista De Mesa - Variable DC Power Supply Guide
 
 ## Overview
 This project, **revistademesa.com**, serves as a comprehensive digital guide and technical resource for **Variable DC Power Supplies**. It is designed to educate engineers, lab technicians, and procurement specialists on the specifications, applications, and compliance standards of various voltage classes (120V, 150V, 220V, etc.).

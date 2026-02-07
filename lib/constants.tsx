@@ -205,6 +205,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
                 answer: "While legacy EVs are 400V, the industry (Porsche, Hyundai, Kia, Audi) is moving to 800V architectures to enable faster charging and thinner cabling. An 800V supply is a future-proof investment that covers both legacy 400V and next-gen 800V platforms."
             }
         ]
+    },
     {
         slug: 'variable-power-supply-60v',
         voltage: '60V',

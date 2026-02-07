@@ -7,14 +7,15 @@ export interface VoltagePageConfig {
   subtitle: string;
   metaTitle?: string;
   description: string;
-  complianceStandards: string;
+  complianceStandards: string | string[];
   applications: string[];
   technicalSpecs: {
-    ripple: string;
-    efficiency: string;
-    cooling: string;
+    ripple?: string;
+    efficiency?: string;
+    cooling?: string;
+    [key: string]: string | undefined;
   };
-  whyChoose: string;
+  whyChoose: string | string[];
   faqs: {
     question: string;
     answer: string;

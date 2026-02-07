@@ -39,14 +39,30 @@ const VoltageCard: React.FC<VoltageCardProps> = ({ config }) => {
 
                 {/* Mini Specs */}
                 <div className="mb-6 bg-slate-50 p-3 text-xs text-slate-600 font-mono border border-slate-200">
-                    <div className="flex justify-between mb-1">
-                        <span>Ripple:</span>
-                        <span className="text-slate-900">{config.technicalSpecs.ripple}</span>
-                    </div>
-                    <div className="flex justify-between">
-                        <span>Cooling:</span>
-                        <span className="text-slate-900">{config.technicalSpecs.cooling.split(' ')[0]}...</span>
-                    </div>
+                    {config.technicalSpecs.ripple && (
+                        <div className="flex justify-between mb-1">
+                            <span>Ripple:</span>
+                            <span className="text-slate-900">{config.technicalSpecs.ripple}</span>
+                        </div>
+                    )}
+                    {config.technicalSpecs.cooling && (
+                        <div className="flex justify-between">
+                            <span>Cooling:</span>
+                            <span className="text-slate-900">{config.technicalSpecs.cooling.split(' ')[0]}...</span>
+                        </div>
+                    )}
+                    {!config.technicalSpecs.ripple && config.technicalSpecs.outputVoltage && (
+                        <div className="flex justify-between mb-1">
+                            <span>Output:</span>
+                            <span className="text-slate-900">{config.technicalSpecs.outputVoltage}</span>
+                        </div>
+                    )}
+                    {!config.technicalSpecs.cooling && config.technicalSpecs.inputVoltage && (
+                        <div className="flex justify-between">
+                            <span>Input:</span>
+                            <span className="text-slate-900">{config.technicalSpecs.inputVoltage}</span>
+                        </div>
+                    )}
                 </div>
 
                 <Link

@@ -36,7 +36,7 @@ export default async function VoltageDetail({ params }: { params: Promise<{ slug
     // Visualization Data
     const chartData = [
         { name: 'Stability', val: 95 },
-        { name: 'Efficiency', val: parseFloat(config.technicalSpecs.efficiency) || 90 },
+        { name: 'Efficiency', val: parseFloat(config.technicalSpecs.efficiency || '0') || 90 },
         { name: 'Ripple', val: 98 },
         { name: 'Safety', val: 100 },
     ];
@@ -55,7 +55,7 @@ export default async function VoltageDetail({ params }: { params: Promise<{ slug
                         variant="dark"
                         items={[
                             { label: 'Variable Power Supplies', path: '/variable-power-supplies' },
-                            { label: `${config.voltage}V Series` }
+                            { label: typeof config.voltage === 'number' ? `${config.voltage}V Series` : `${config.voltage} Series` }
                         ]}
                     />
 
@@ -195,18 +195,31 @@ export default async function VoltageDetail({ params }: { params: Promise<{ slug
                         <div className="p-6">
                             <table className="w-full text-sm mb-8">
                                 <tbody>
-                                    <tr className="border-b border-slate-200">
-                                        <td className="py-3 text-slate-500 font-medium">Output Ripple</td>
-                                        <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.ripple}</td>
-                                    </tr>
-                                    <tr className="border-b border-slate-200">
-                                        <td className="py-3 text-slate-500 font-medium">Efficiency</td>
-                                        <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.efficiency}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-3 text-slate-500 font-medium">Cooling</td>
-                                        <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.cooling}</td>
-                                    </tr>
+                                    {config.technicalSpecs.ripple && (
+                                        <tr className="border-b border-slate-200">
+                                            <td className="py-3 text-slate-500 font-medium">Output Ripple</td>
+                                            <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.ripple}</td>
+                                        </tr>
+                                    )}
+                                    {config.technicalSpecs.efficiency && (
+                                        <tr className="border-b border-slate-200">
+                                            <td className="py-3 text-slate-500 font-medium">Efficiency</td>
+                                            <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.efficiency}</td>
+                                        </tr>
+                                    )}
+                                    {config.technicalSpecs.cooling && (
+                                        <tr>
+                                            <td className="py-3 text-slate-500 font-medium">Cooling</td>
+                                            <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.cooling}</td>
+                                        </tr>
+                                    )}
+                                    {/* Fallback for other specs */}
+                                    {!config.technicalSpecs.ripple && config.technicalSpecs.outputVoltage && (
+                                        <tr className="border-b border-slate-200">
+                                            <td className="py-3 text-slate-500 font-medium">Output Voltage</td>
+                                            <td className="py-3 text-right font-mono font-bold text-slate-900">{config.technicalSpecs.outputVoltage}</td>
+                                        </tr>
+                                    )}
                                 </tbody>
                             </table>
 

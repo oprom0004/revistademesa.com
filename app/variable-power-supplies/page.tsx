@@ -8,6 +8,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Browse Variable Power Supplies by Voltage (120V, 220V, 500V+) | Revista De Mesa',
     description: 'Select a voltage class to view technical specifications, compliance standards, and load regulation limits.',
+    alternates: {
+        canonical: '/variable-power-supplies',
+    },
 };
 
 export default function Hub() {

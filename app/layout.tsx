@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
     metadataBase: new URL('https://revistademesa.com'),
     alternates: {
-        canonical: '/',
+        canonical: './',
     },
     icons: {
         icon: '/favicon.ico',

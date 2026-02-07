@@ -205,6 +205,145 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
                 answer: "While legacy EVs are 400V, the industry (Porsche, Hyundai, Kia, Audi) is moving to 800V architectures to enable faster charging and thinner cabling. An 800V supply is a future-proof investment that covers both legacy 400V and next-gen 800V platforms."
             }
         ]
+    {
+        slug: 'variable-power-supply-60v',
+        voltage: '60V',
+        mainSiteUrl: 'https://variabledcpowersupply.com/60v-power-supply',
+        title: '60V Variable DC Power Supply | Precision Benchtop Source',
+        subtitle: 'Professional 0-60V Adjustable Power Systems',
+        metaTitle: '60V Variable DC Power Supply: High Precision 0-60V Benchtop Lab Units',
+        description: 'Shop professional 60V variable DC power supplies. Feature-rich 0-60V adjustable units with fine & coarse current regulation for lab testing.',
+        complianceStandards: ['IEC 61010-1', 'CE Certified', 'RoHS'],
+        applications: ['Automotive Electronics (48V systems)', 'Telecom Testing', 'LED Lighting Arrays'],
+        technicalSpecs: {
+            inputVoltage: '110V/220V AC ±10%',
+            outputVoltage: '0-60V DC Adjustable',
+            ripple: '< 3mVrms',
+            display: '4-Digit LED Precision Display'
+        },
+        whyChoose: [
+            'Ideal for 48V battery system testing',
+            'High reliability with over-voltage protection',
+            'Compact benchtop footprint'
+        ],
+        faqs: [
+            {
+                question: 'Is this suitable for 48V battery banks?',
+                answer: 'Yes, 60V supplies are perfect for charging and testing 48V battery architectures as they provide sufficient overhead voltage (typically 54V-58V needed).'
+            }
+        ]
+    },
+    {
+        slug: 'variable-power-supply-80v',
+        voltage: '80V',
+        mainSiteUrl: 'https://variabledcpowersupply.com/80v-power-supply',
+        title: '80V Variable DC Power Supply | Industrial Test Source',
+        subtitle: 'Heavy-Duty 0-80V DC Power Solutions',
+        metaTitle: '80V Variable DC Power Supply: 0-80V Adjustable Industrial Lab Rectifiers',
+        description: 'Industrial-grade 80V variable DC power supplies. Robust 0-80V output for telecom, electroplating, and high-power motor testing applications.',
+        complianceStandards: ['UL 61010', 'FCC Part 15', 'ISO 9001'],
+        applications: ['Electroplating', 'DC Motor Testing', 'Industrial Automation'],
+        technicalSpecs: {
+            inputVoltage: '220V AC / 110V AC',
+            outputVoltage: '0-80V DC Continuously Adjustable',
+            cooling: 'Temperature Controlled Fan',
+            efficiency: '> 85%'
+        },
+        whyChoose: [
+            'Extended voltage range for specialized industrial needs',
+            'Robust thermal management for continuous operation',
+            'High efficiency power conversion'
+        ],
+        faqs: [
+            {
+                question: 'Can I use this for electroplating?',
+                answer: 'Absolutely. These 80V units provide stable voltage and current control essential for consistent electroplating results.'
+            }
+        ]
+    },
+    {
+        slug: 'variable-power-supply-300v',
+        voltage: '300V',
+        mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
+        title: '300V Variable DC Power Supply | High Voltage Lab',
+        subtitle: 'Precision 0-300V HV Testing Units',
+        metaTitle: '300V Variable DC Power Supply: High Voltage 0-300V AC-DC Lab Bench Source',
+        description: 'High voltage 300V variable DC power supplies. Safe, regulated 0-300V output for capacitor testing, insulation testing, and physics research.',
+        complianceStandards: ['IEC 61010-1:2010', 'Low Voltage Directive', 'CAT II'],
+        applications: ['Capacitor Reforming', 'Insulation Resistance Testing', 'Physics Lab Experiments'],
+        technicalSpecs: {
+            inputVoltage: '110V/220V Switchable',
+            outputVoltage: '0-300V Adjustable',
+            safetyFeatures: 'OVP, OCP, OTP Protection',
+            resolution: '100mV / 10mA'
+        },
+        whyChoose: [
+            'Essential for high-voltage component characterization',
+            'Advanced safety protection circuitry',
+            'High stability for sensitive measurements'
+        ],
+        faqs: [
+            {
+                question: 'What safety precautions are included?',
+                answer: 'Our 300V units feature isolated outputs, emergency stop functionality, and automatic discharge for output capacitors.'
+            }
+        ]
+    },
+    {
+        slug: 'variable-power-supply-400v',
+        voltage: '400V',
+        mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
+        title: '400V Variable DC Power Supply | EV Component Test',
+        subtitle: '0-400V Solutions, 800V Stack Ready',
+        metaTitle: '400V Variable DC Power Supply: 0-400V Adjustable Source for EV & Solar',
+        description: 'Specialized 400V variable DC power supplies. Critical for 400V EV bus architecture testing and solar inverter component validation.',
+        complianceStandards: ['IEC 61851', 'Automotive EMC', 'CE LVD'],
+        applications: ['EV Battery Simulation', 'Solar String Inverter Testing', 'High Voltage Semiconductor Test'],
+        technicalSpecs: {
+            inputVoltage: '220V AC Single Phase',
+            outputVoltage: '0-400V DC',
+            loadRegulation: '< 0.1%',
+            interface: 'RS232/RS485 Remote Control'
+        },
+        whyChoose: [
+            'Matches standard EV battery voltage class',
+            'High power density for workbench use',
+            'Remote programming capabilities'
+        ],
+        faqs: [
+            {
+                question: 'Can two units be connected in series for 800V?',
+                answer: 'Yes, most of our isolated 400V models can be connected in series to achieve 800V for next-gen EV testing. Check specific model datasheets.'
+            }
+        ]
+    },
+    {
+        slug: '10-amp-variable-dc-power-supply',
+        voltage: '10A',
+        mainSiteUrl: 'https://variabledcpowersupply.com',
+        title: '10 Amp Variable DC Power Supply | High Current',
+        subtitle: 'Adjustable Voltage with 0-10A Current Limiting',
+        metaTitle: '10 Amp Variable DC Power Supply: 0-30V/60V 10A High Current Lab Source',
+        description: 'High current 10 Amp variable DC power supplies. Versatile benchtop units providing up to 10A continuous current for power-hungry electronics.',
+        complianceStandards: ['UL Listed Components', 'CE', 'FCC'],
+        applications: ['Battery Charging', 'Power Inverter Testing', 'Electrolysis'],
+        technicalSpecs: {
+            inputVoltage: '110V AC',
+            outputVoltage: '0-30V or 0-60V (Model Dependent)',
+            outputCurrent: '0-10A Continuously Adjustable',
+            cooling: 'Intelligent Fan Control'
+        },
+        whyChoose: [
+            'Delivers 2x-3x current of standard lab supplies',
+            'Robust transformer design for sustained loads',
+            'Cost-effective high power solution'
+        ],
+        faqs: [
+            {
+                question: 'Is the 10A output continuous?',
+                answer: 'Yes, our 10A models are rated for continuous 10 Amp output at full voltage, supported by active cooling systems.'
+            }
+        ]
     }
 ];
 

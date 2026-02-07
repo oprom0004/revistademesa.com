@@ -1,7 +1,7 @@
 
 export interface VoltagePageConfig {
   slug: string;
-  voltage: number;
+  voltage: number | string;
   mainSiteUrl: string;
   title: string;
   subtitle: string;

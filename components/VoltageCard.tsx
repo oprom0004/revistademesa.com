@@ -14,7 +14,13 @@ const VoltageCard: React.FC<VoltageCardProps> = ({ config }) => {
             {/* Header Section */}
             <div className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex items-center justify-between">
                 <h2 className="text-2xl font-bold text-slate-900 tracking-tight font-mono">
-                    {config.voltage}V <span className="text-slate-500 text-lg">DC</span>
+                    {typeof config.voltage === 'number' ? (
+                        <>
+                            {config.voltage}V <span className="text-slate-500 text-lg">DC</span>
+                        </>
+                    ) : (
+                        config.voltage
+                    )}
                 </h2>
                 <div className="opacity-80">
                     {getIconForVoltage(config.voltage)}

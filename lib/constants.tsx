@@ -208,7 +208,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
     },
     {
         slug: 'variable-power-supply-60v',
-        voltage: '60V',
+        voltage: 60,
         mainSiteUrl: 'https://variabledcpowersupply.com/60v-power-supply',
         title: '60V Variable DC Power Supply | Precision Benchtop Source',
         subtitle: 'Professional 0-60V Adjustable Power Systems',
@@ -236,7 +236,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
     },
     {
         slug: 'variable-power-supply-80v',
-        voltage: '80V',
+        voltage: 80,
         mainSiteUrl: 'https://variabledcpowersupply.com/80v-power-supply',
         title: '80V Variable DC Power Supply | Industrial Test Source',
         subtitle: 'Heavy-Duty 0-80V DC Power Solutions',
@@ -264,7 +264,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
     },
     {
         slug: 'variable-power-supply-300v',
-        voltage: '300V',
+        voltage: 300,
         mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
         title: '300V Variable DC Power Supply | High Voltage Lab',
         subtitle: 'Precision 0-300V HV Testing Units',
@@ -292,7 +292,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
     },
     {
         slug: 'variable-power-supply-400v',
-        voltage: '400V',
+        voltage: 400,
         mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
         title: '400V Variable DC Power Supply | EV Component Test',
         subtitle: '0-400V Solutions, 800V Stack Ready',
@@ -349,7 +349,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
 ];
 
 // Reverted to neutral gray icons for professional consistency
-export const getIconForVoltage = (voltage: number) => {
+export const getIconForVoltage = (voltage: number | string) => {
     switch (voltage) {
         case 120: return <Battery className="w-6 h-6 text-slate-600" />;
         case 150: return <Activity className="w-6 h-6 text-slate-600" />;

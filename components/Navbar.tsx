@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2">
                         <Monitor className="w-6 h-6 text-amber-400" />
                         <Link href="/" className="font-bold text-xl tracking-tight">
-                            {APP_NAME} <span className="text-slate-400 text-sm font-normal hidden sm:inline">| Technical Reference</span>
+                            {APP_NAME}
                         </Link>
                     </div>
                     <div className="hidden md:block">

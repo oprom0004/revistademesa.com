@@ -8,7 +8,7 @@ export default function SchemaMarkup() {
                 "@type": "WebSite",
                 "@id": "https://revistademesa.com/#website",
                 "url": "https://revistademesa.com/",
-                "name": "Variable DC Power Supply Guide",
+                "name": "Variable DC Power Supply",
                 "description": "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
                 "publisher": {
                     "@id": "https://revistademesa.com/#organization"
@@ -41,7 +41,7 @@ export default function SchemaMarkup() {
                 "@type": "WebPage",
                 "@id": "https://revistademesa.com/#webpage",
                 "url": "https://revistademesa.com/",
-                "name": `Variable DC Power Supply Guide (${new Date().getFullYear()}): 120V - 800V Selection`,
+                "name": `Variable DC Power Supply (${new Date().getFullYear()}): 120V - 800V Selection`,
                 "isPartOf": {
                     "@id": "https://revistademesa.com/#website"
                 },

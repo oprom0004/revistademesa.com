@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-[url('https://picsum.photos/1920/1080')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6">
-                        Variable DC Power Supply: <span className="text-amber-400">{currentYear} Workbench Guide</span>
+                        Variable DC Power Supply: <span className="text-amber-400">{currentYear} Workbench Reference</span>
                     </h1>
                     <p className="text-xl text-slate-300 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         The definitive technical reference for <strong>120V to 800V DC power sources</strong>.

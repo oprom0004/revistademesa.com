@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'Variable DC Power Supply Guide',
+        name: 'Variable DC Power Supply',
         short_name: 'VDC Guide',
         description: 'Precision Source for NEMA Standard Equipment & 96V Battery Architectures',
         start_url: '/',

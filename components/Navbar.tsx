@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2">
                         <Monitor className="w-6 h-6 text-amber-400" />
                         <Link href="/" className="font-bold text-xl tracking-tight">
-                            {APP_NAME} <span className="text-slate-400 text-sm font-normal hidden sm:inline">| Power Supply Guide</span>
+                            {APP_NAME} <span className="text-slate-400 text-sm font-normal hidden sm:inline">| Technical Reference</span>
                         </Link>
                     </div>
                     <div className="hidden md:block">
@@ -26,8 +26,8 @@ const Navbar = () => {
                                     key={link.path}
                                     href={link.path}
                                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${pathname === link.path
-                                            ? 'bg-slate-800 text-amber-400'
-                                            : 'text-slate-300 hover:bg-slate-700 hover:text-white'
+                                        ? 'bg-slate-800 text-amber-400'
+                                        : 'text-slate-300 hover:bg-slate-700 hover:text-white'
                                         }`}
                                 >
                                     {link.label}

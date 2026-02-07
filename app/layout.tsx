@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 const currentYear = new Date().getFullYear();
 
 export const metadata: Metadata = {
-    title: `Variable DC Power Supply Guide (${currentYear}): 120V - 800V Selection | Revista De Mesa`,
+    title: `Variable DC Power Supply (${currentYear}): 120V - 800V Selection | Revista De Mesa`,
     description: "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
     metadataBase: new URL('https://revistademesa.com'),
     alternates: {
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
         icon: '/favicon.ico',
     },
     openGraph: {
-        title: `Variable DC Power Supply Guide (${currentYear})`,
+        title: `Variable DC Power Supply (${currentYear})`,
         description: "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
         url: 'https://revistademesa.com',
-        siteName: 'Variable DC Power Supply Guide',
+        siteName: 'Variable DC Power Supply',
         locale: 'en_US',
         type: 'website',
     },
     twitter: {
         card: 'summary_large_image',
-        title: `Variable DC Power Supply Guide (${currentYear})`,
+        title: `Variable DC Power Supply (${currentYear})`,
         description: "Precision Source for NEMA Standard Equipment & 96V Battery Architectures",
     },
     robots: {

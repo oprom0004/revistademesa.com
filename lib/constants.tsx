@@ -50,23 +50,43 @@ const createVoltageConfig = (voltage: number, mainSiteUrl: string, description: 
 });
 
 export const VOLTAGE_PAGES: VoltagePageConfig[] = [
-    createVoltageConfig(15, 'https://variabledcpowersupply.com/15v-dc-power-supplies/',
-        "Precision 15V DC power supplies for low-voltage logic circuits and semiconductor testing. Ideal for 0-15V adjustable requirements."),
-    createVoltageConfig(20, 'https://variabledcpowersupply.com/20v-dc-power-supplies/',
-        "Versatile 20V variable DC power supplies. Perfect for automotive component testing (12V nominal) and portable electronics development."),
-    createVoltageConfig(30, 'https://variabledcpowersupply.com/variable-dc-power-supply-30v/',
-        "Standard 30V lab bench power supplies. The industry workhorse for general electronics lab, education, and maintenance repair."),
-    createVoltageConfig(50, 'https://variabledcpowersupply.com/50v-dc-power-supplies/',
-        "50V DC adjustable power sources for telecom (48V) and network equipment testing. Provides clean, stable 0-50V output."),
+    // 800V
+    {
+        ...createVoltageConfig(800, 'https://variabledcpowersupply.com/800v-dc-power-supplies/',
+            "Leading-edge 800V testing solutions for next-generation EV platforms (Porsche/Audi/Hyundai architectures) and high-power industrial grids."),
+        title: "800V Variable DC Power Supply | EV Architecture",
+        whyChoose: [
+            "Matches 800V EV battery architecture standards",
+            "High insulation resistance for safety",
+            "Precise control for HV breakdown testing"
+        ]
+    },
 
-    // 60V - Special Layout (kept slightly more detailed if needed, but standardizing for now to ensure consistency)
-    createVoltageConfig(60, 'https://variabledcpowersupply.com/variable-dc-power-supply-60v/',
-        "Professional 60V variable DC power supplies. Feature-rich 0-60V adjustable units with fine & coarse current regulation for 48V system testing."),
+    createVoltageConfig(600, 'https://variabledcpowersupply.com/600v-dc-power-supplies/',
+        "600V variable DC power supplies. Designed for solar string inverter testing and industrial drive variable frequency drive (VFD) DC bus simulation."),
+    createVoltageConfig(500, 'https://variabledcpowersupply.com/500v-dc-power-supplies/',
+        "500V industrial DC power supplies. High voltage testing solution for railways, renewable energy, and scientific research."),
+    createVoltageConfig(400, 'https://variabledcpowersupply.com/400v-dc-power-supplies/',
+        "400V DC power sources for EV ecosystem testing. Simulates 400V native electric vehicle battery architectures and charging components."),
 
-    createVoltageConfig(80, 'https://variabledcpowersupply.com/80v-dc-power-supplies/',
-        "80V variable DC power supplies for industrial testing. Robust 0-80V output for higher voltage DC motors and automation equipment."),
-    createVoltageConfig(100, 'https://variabledcpowersupply.com/100v-dc-power-supplies/',
-        "100V high-precision DC power supplies. Essential for testing 72V-96V battery systems and high-voltage DC components."),
+    // 300V
+    createVoltageConfig(300, 'https://variabledcpowersupply.com/dc-power-supply-300v-list/',
+        "High voltage 300V variable DC power supplies. Critical for testing energy storage systems and photovoltaic inverters."),
+
+    createVoltageConfig(250, 'https://variabledcpowersupply.com/250v-dc-power-supplies/',
+        "250V laboratory power supplies. Provides headroom over 220V/230V commercial standards for stress testing and validation."),
+
+    // 220V
+    {
+        ...createVoltageConfig(220, 'https://variabledcpowersupply.com/220v-dc-power-supplies/',
+            "The 220V rating is the global standard for high-voltage DC simulation. Essential for testing equipment designed for European and Asian markets."),
+        subtitle: "Global Mains Simulation & Calibration"
+    },
+
+    createVoltageConfig(200, 'https://variabledcpowersupply.com/200v-dc-power-supplies/',
+        "200V adjustable power supplies. Suitable for testing 100V-200V rated capacitors, fuses, and global voltage components."),
+    createVoltageConfig(150, 'https://variabledcpowersupply.com/150v-dc-power-supplies/',
+        "150V variable DC sources for aerospace and specialized industrial driver testing. Delivers stable 0-150V DC power."),
 
     // 120V - Custom inherited content preserved in simplified format
     {
@@ -81,43 +101,23 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
 
-    createVoltageConfig(150, 'https://variabledcpowersupply.com/150v-dc-power-supplies/',
-        "150V variable DC sources for aerospace and specialized industrial driver testing. Delivers stable 0-150V DC power."),
-    createVoltageConfig(200, 'https://variabledcpowersupply.com/200v-dc-power-supplies/',
-        "200V adjustable power supplies. Suitable for testing 100V-200V rated capacitors, fuses, and global voltage components."),
+    createVoltageConfig(100, 'https://variabledcpowersupply.com/100v-dc-power-supplies/',
+        "100V high-precision DC power supplies. Essential for testing 72V-96V battery systems and high-voltage DC components."),
+    createVoltageConfig(80, 'https://variabledcpowersupply.com/80v-dc-power-supplies/',
+        "80V variable DC power supplies for industrial testing. Robust 0-80V output for higher voltage DC motors and automation equipment."),
 
-    // 220V
-    {
-        ...createVoltageConfig(220, 'https://variabledcpowersupply.com/220v-dc-power-supplies/',
-            "The 220V rating is the global standard for high-voltage DC simulation. Essential for testing equipment designed for European and Asian markets."),
-        subtitle: "Global Mains Simulation & Calibration"
-    },
+    // 60V - Special Layout (kept slightly more detailed if needed, but standardizing for now to ensure consistency)
+    createVoltageConfig(60, 'https://variabledcpowersupply.com/variable-dc-power-supply-60v/',
+        "Professional 60V variable DC power supplies. Feature-rich 0-60V adjustable units with fine & coarse current regulation for 48V system testing."),
 
-    createVoltageConfig(250, 'https://variabledcpowersupply.com/250v-dc-power-supplies/',
-        "250V laboratory power supplies. Provides headroom over 220V/230V commercial standards for stress testing and validation."),
-
-    // 300V
-    createVoltageConfig(300, 'https://variabledcpowersupply.com/dc-power-supply-300v-list/',
-        "High voltage 300V variable DC power supplies. Critical for testing energy storage systems and photovoltaic inverters."),
-
-    createVoltageConfig(400, 'https://variabledcpowersupply.com/400v-dc-power-supplies/',
-        "400V DC power sources for EV ecosystem testing. Simulates 400V native electric vehicle battery architectures and charging components."),
-    createVoltageConfig(500, 'https://variabledcpowersupply.com/500v-dc-power-supplies/',
-        "500V industrial DC power supplies. High voltage testing solution for railways, renewable energy, and scientific research."),
-    createVoltageConfig(600, 'https://variabledcpowersupply.com/600v-dc-power-supplies/',
-        "600V variable DC power supplies. Designed for solar string inverter testing and industrial drive variable frequency drive (VFD) DC bus simulation."),
-
-    // 800V
-    {
-        ...createVoltageConfig(800, 'https://variabledcpowersupply.com/800v-dc-power-supplies/',
-            "Leading-edge 800V testing solutions for next-generation EV platforms (Porsche/Audi/Hyundai architectures) and high-power industrial grids."),
-        title: "800V Variable DC Power Supply | EV Architecture",
-        whyChoose: [
-            "Matches 800V EV battery architecture standards",
-            "High insulation resistance for safety",
-            "Precise control for HV breakdown testing"
-        ]
-    }
+    createVoltageConfig(50, 'https://variabledcpowersupply.com/50v-dc-power-supplies/',
+        "50V DC adjustable power sources for telecom (48V) and network equipment testing. Provides clean, stable 0-50V output."),
+    createVoltageConfig(30, 'https://variabledcpowersupply.com/variable-dc-power-supply-30v/',
+        "Standard 30V lab bench power supplies. The industry workhorse for general electronics lab, education, and maintenance repair."),
+    createVoltageConfig(20, 'https://variabledcpowersupply.com/20v-dc-power-supplies/',
+        "Versatile 20V variable DC power supplies. Perfect for automotive component testing (12V nominal) and portable electronics development."),
+    createVoltageConfig(15, 'https://variabledcpowersupply.com/15v-dc-power-supplies/',
+        "Precision 15V DC power supplies for low-voltage logic circuits and semiconductor testing. Ideal for 0-15V adjustable requirements.")
 ];
 
 // Reverted to neutral gray icons for professional consistency

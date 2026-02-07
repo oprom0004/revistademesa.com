@@ -207,7 +207,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
     {
-        slug: 'variable-power-supply-60v',
+        slug: '/variable-power-supply-60v',
         voltage: 60,
         mainSiteUrl: 'https://variabledcpowersupply.com/60v-power-supply',
         title: '60V Variable DC Power Supply | Precision Benchtop Source',
@@ -235,7 +235,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
     {
-        slug: 'variable-power-supply-80v',
+        slug: '/variable-power-supply-80v',
         voltage: 80,
         mainSiteUrl: 'https://variabledcpowersupply.com/80v-power-supply',
         title: '80V Variable DC Power Supply | Industrial Test Source',
@@ -263,7 +263,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
     {
-        slug: 'variable-power-supply-300v',
+        slug: '/variable-power-supply-300v',
         voltage: 300,
         mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
         title: '300V Variable DC Power Supply | High Voltage Lab',
@@ -291,7 +291,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
     {
-        slug: 'variable-power-supply-400v',
+        slug: '/variable-power-supply-400v',
         voltage: 400,
         mainSiteUrl: 'https://variabledcpowersupply.com/high-voltage-power-supply',
         title: '400V Variable DC Power Supply | EV Component Test',
@@ -319,7 +319,7 @@ export const VOLTAGE_PAGES: VoltagePageConfig[] = [
         ]
     },
     {
-        slug: '10-amp-variable-dc-power-supply',
+        slug: '/10-amp-variable-dc-power-supply',
         voltage: '10A',
         mainSiteUrl: 'https://variabledcpowersupply.com',
         title: '10 Amp Variable DC Power Supply | High Current',

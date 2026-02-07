@@ -362,7 +362,7 @@ export const getIconForVoltage = (voltage: number | string) => {
 };
 
 // Returns a matching color hex only for charts/accents where needed
-export const getColorForVoltage = (voltage: number) => {
+export const getColorForVoltage = (voltage: number | string) => {
     switch (voltage) {
         case 120: return '#f59e0b'; // amber-500
         case 150: return '#3b82f6'; // blue-500

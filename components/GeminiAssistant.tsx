@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { getGeminiResponse } from '../app/actions'; // Import server action
 import { MessageSquare, X, Send, User, LifeBuoy } from 'lucide-react';
 import { ChatMessage, MessageRole } from '../lib/types';
 
@@ -31,11 +30,29 @@ const GeminiAssistant: React.FC = () => {
         setMessages(prev => [...prev, { role: MessageRole.USER, text: userText }]);
         setIsLoading(true);
 
-        // Call Server Action
-        const responseText = await getGeminiResponse(userText);
+        try {
+            // Call API route instead of Server Action
+            const response = await fetch('/api/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: userText }),
+            });
 
-        setMessages(prev => [...prev, { role: MessageRole.MODEL, text: responseText }]);
-        setIsLoading(false);
+            const data = await response.json();
+            const responseText = data.response || 'No response received';
+
+            setMessages(prev => [...prev, { role: MessageRole.MODEL, text: responseText }]);
+        } catch (error) {
+            console.error('Chat error:', error);
+            setMessages(prev => [...prev, {
+                role: MessageRole.MODEL,
+                text: 'Connection error. Please try again.'
+            }]);
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (

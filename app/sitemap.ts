@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Dynamic voltage pages
     const voltagePages = VOLTAGE_PAGES.map((page) => ({
-        url: `${baseUrl}/${page.slug}`,
+        url: `${baseUrl}${page.slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.8,
